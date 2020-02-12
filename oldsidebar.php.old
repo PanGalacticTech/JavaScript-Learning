@@ -1,0 +1,43 @@
+
+<?php
+echo '<script type="text/JavaScript">
+$(function () {
+var tableBody = $("#tableBody"),
+    tableHead = $("#tableHead");
+
+    tableHead.on("click", function () {
+        tableBody.slideToggle("fast");
+    });
+});
+     </script>'
+;
+?>
+
+
+
+<table>
+    <thead id="tableHead">
+        <tr>
+            <th><p class="navtitle2"><u>Title</u></p></th>
+        </tr>
+    </thead>
+    <tbody id = "tableBody">
+        <tr>
+            <td><a class="link" href="/OLED.php">Sub 1</a></td>
+        </tr>
+        <tr>
+            <td><a class="link" href="/GPS.php ">Sub 2/a></td>
+         </td>
+        </tr>
+	 <tr>
+            <td><a class="link" href="/raspiserver.php ">Sub 3</a></td>
+        </tr>
+ 	<tr>
+            <td><a class="link" href="/taptempo.php ">Sub 4</a></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+<a class="link" href="/index.php">Other Stuff</a>

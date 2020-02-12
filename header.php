@@ -1,33 +1,39 @@
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
-<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
-<title> EnviroStation </title>
-<!--<subheading> Environmental & Air Quality Monitoring </subheading>-->
+  <title> EnviroStation </title>
 
 </head>
 
+
+
 <body>
-<div id="parent">
+  <div id="parent">
+    <div id="header">
 
-<div id="header">
-<div id="logo">
+      <div id="headlogo">
+        <img src="C:\Users\dech3\Documents\Atom\JavaScript-Learning\media\PanGalacticLogo2020NoLines01smaller.png"
+        alt="PanGalacticLogo" style=width:100%;height:100%;">
+      </div>
 
-<!--<p>LOGO</p> how to comment out lines -->
 
-<img src="" alt="PanGalacticLogo" style="width:200px;height:200px;">
-</div>
+      <div id="headtitle">
+        <h1> Pan Galactic Tech </h1>
+        <h3> EnviroStation </h3>
+      </div>
 
-<div id="hsubscribe">
-<p>Subscribe</p>
-</div>
-</div>
-<!--
-<?php include('sidebar.php'); ?>
--->
-<div id="navbar">
 
-<p>navbar</p>
+    </div>  <!-- end of div header -->
+  </div>  <!-- end of div parent -->
 
-</div>
+
+
+  <div id="navbar">
+    <span>
+      <p>navbar</p>      
+    </span>
+  </div>
+
+    <?php include('sidebar.php'); ?>
