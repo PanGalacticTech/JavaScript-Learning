@@ -34,6 +34,26 @@ body {
 	height: 160px;
 }
 
+
+#heroimage{
+	width: 100%;
+	float: center;
+	padding-bottom: 0px;
+	opacity:0.9;
+	filter:alpha(opacity=50);
+
+}
+
+#herooverlay{
+	width: 100%;
+	float: center;
+	background-color: #000000;
+	padding-bottom: 0px;
+	opacity:0.9;
+	filter:alpha(opacity=50);
+
+}
+
 #headlogo{
 	width: 50%;
 	float: left;
@@ -47,7 +67,7 @@ body {
 	width: 50%;
 	float: right;
 	padding-top: 70px;
-	padding-bottom: 0px;	
+	padding-bottom: 0px;
 	opacity:0.9;
 	filter:alpha(opacity=50);
 
@@ -175,6 +195,18 @@ span {
 	width: 75%;
 	margin-left: 14%;
 	margin-top: 10px;
+	margin: 3px auto 3px auto;
+	background-color: #2c2c2c;
+	color: #e6e6e6;
+	clear: both;
+}
+
+#insidefooter{
+	width: 75%;
+	margin-left: 14%;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	margin: 3px auto 3px auto;
 	background-color: #2c2c2c;
 	color: #e6e6e6;
@@ -329,7 +361,15 @@ img.center{
 	margin-right: auto;
 }
 
-.link {font-weight:bold; float:left; }
+
+img.stretchy {
+width: 100%; /*Tells image to fit to width of parent container*/
+}
+.container {
+width: 33%; /*Use this to control width of the parent container, hence the image*/
+}
+
+.link {font-weight:bold; }
 .link:link { color:#03f0fc;}
 .link:visited { color:#03f0fc;}
 .link:hover { color:#18FFFF; background-color:#616161; }

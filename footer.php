@@ -1,6 +1,6 @@
 <div id="paddingdiv">
 <div id="footer">
-
+<div id="insidefooter">
 
 Footer Text Could be here
   </br>
@@ -34,7 +34,7 @@ Email:
   </br>
   </p>
 
-
+</div>
 
 </div> <!-- end of footer div -->
 
