@@ -15,9 +15,9 @@ body {
 #parent {
 	font-family: Consolas, monaco, monospace;
 	margin: 0px;
-color: #e6e6e6;
+	color: #e6e6e6;
 	text-align: center;
-	background-color: #020202;
+	background-color: #040404;
 	width:auto;
 	height: auto;
 	overflow: auto;
@@ -31,21 +31,25 @@ color: #e6e6e6;
 	background-color: #111111;
 	color: white;
 	padding: 1px;
-	height: 100px;
+	height: 160px;
 }
 
 #headlogo{
 	width: 50%;
 	float: left;
-	padding-bottom: 20px;
-	opacity:0.4;
-	filter:alpha(opacity=40);
+	padding-bottom: 0px;
+	opacity:0.9;
+	filter:alpha(opacity=50);
 }
 
 
-
 #headtitle{
-
+	width: 50%;
+	float: right;
+	padding-top: 70px;
+	padding-bottom: 0px;	
+	opacity:0.9;
+	filter:alpha(opacity=50);
 
 }
 
@@ -144,6 +148,7 @@ span {
 	padding-bottom: 10px;
 }
 
+
 #post{
 	width: 90%;
 	margin: 2px auto 2px auto;
@@ -155,7 +160,6 @@ span {
 
 	color: #F5F5F5;
 	border: 0px solid #000;
-
 }
 
 
@@ -224,7 +228,6 @@ p.subheading {
 	font-size: 18px;
 	font-weight: bold;
 	color: #F9A825;
-
 }
 
 
@@ -269,6 +272,7 @@ p {
 	line-height: 20px;
 }
 
+
 blockquote {
 	font-family: Consolas, monaco, monospace;
 	font-size: 21px;
@@ -277,6 +281,7 @@ blockquote {
 	font-weight: 400;
 	line-height: 30px;
 }
+
 
 pre {
 	font-family: Consolas, monaco, monospace;
@@ -297,11 +302,10 @@ p.bodytext {
 	font-family: Consolas, monaco, monospace;
 	text-align: left;
 	font-size: 14px;
-
 }
 
-p.navtitle1 {
 
+p.navtitle1 {
 	font-family: Consolas, monaco, monospace;
 	text-align: left;
 	font-size: 16px;
@@ -309,8 +313,8 @@ p.navtitle1 {
 	color: #FFC107;
 }
 
-p.navtitle2 {
 
+p.navtitle2 {
 	font-family: Consolas, monaco, monospace;
 	text-align: center;
 	font-size: 16px;
@@ -318,11 +322,11 @@ p.navtitle2 {
 	color: #00E5FF;
 }
 
+
 img.center{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 .link {font-weight:bold; float:left; }

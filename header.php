@@ -14,8 +14,8 @@
     <div id="header">
 
       <div id="headlogo">
-        <img src="C:\Users\dech3\Documents\Atom\JavaScript-Learning\media\PanGalacticLogo2020NoLines01smaller.png"
-        alt="PanGalacticLogo" style=width:100%;height:100%;">
+        <img src="\media\PanGalacticLogo2020NoLines01smaller.png"
+        alt="PanGalacticLogo" style=width:400px;height:150px;">
       </div>
 
 
@@ -32,7 +32,7 @@
 
   <div id="navbar">
     <span>
-      <p>navbar</p>      
+      <p>navbar</p>
     </span>
   </div>
 
