@@ -12,5 +12,5 @@
 </div> <!-- End of content Div -->
 
 
-  <script src="fetchData.js"> </script>
+
 <?php include('footer.php');?>

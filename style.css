@@ -539,11 +539,11 @@ img.clipped {
 
 
 .dataUpdate	{
-	padding: 15px;
-  border: 1px solid #d6e9c6;
+	padding: 1px;
   border-radius: 4px;
-  color: #3c763d;
-  background-color: #dff0d8;
+  color: #ffc107;
+	font-size: 56px;
+	text-align: center;
 }
 
 

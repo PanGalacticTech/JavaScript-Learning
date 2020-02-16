@@ -29,7 +29,7 @@
     <h4> Current EnviroStation Data: </h4>
 
 
-
+  <script src="fetchData.js"> </script>
 
     <div id = "databox">
       <h2>  PM2.5  </h2> </br>
@@ -38,8 +38,10 @@
 
       <p class="bigtext" id="PM2.5"></p>
       <script>
-    document.getElementById("PM2.5").innerHTML = getData(4);
+      document.getElementById("PM2.5").innerHTML = PMten;
       </script>
+
+
     </div>
 
 
@@ -75,7 +77,7 @@
     </div>
 
 
-
+  <script src="fetchData.js"> </script>
   </div> <!-- end of EnviroStation UI-->
 
 

@@ -12,15 +12,15 @@ return (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) 
 
 
 
- let envDiv = document.createElement('envDiv');
+ let div = document.createElement('div');
 
-let PMten = 3.455;
+let PMten = 2.345;
 
 // let dataNode = document.createTextNode(PMten);
 
- envDiv.className = "dataUpdate";
+ div.className = "dataUpdate";
 
- envDiv.innerHTML = PMten;
+ div.innerHTML = PMten;
 
  document.body.append(envDiv);
 
@@ -29,10 +29,10 @@ let PMten = 3.455;
 
 function getData(dataType){
 
-PMten = PMten + dataType;
+let value = PMten + dataType;
 
-
-
-return PMten;
-
+return value;
 }
+
+
+PMten = getData(42);
