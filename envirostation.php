@@ -34,11 +34,12 @@
     <div id = "databox">
       <h2>  PM2.5  </h2> </br>
 
-  <p class="bigtext" id="PM2.5"></p>
 
-        <script src="fetchData.js">
-        document.getElementById("PM2.5").innerHTML =  grabData();
-        </script>
+
+      <p class="bigtext" id="PM2.5"></p>
+      <script>
+    document.getElementById("PM2.5").innerHTML = getData(4);
+      </script>
     </div>
 
 
@@ -47,9 +48,9 @@
       <h2>  PM10  </h2> </br>
       <p class="bigtext" id="PM10"></p>
 
-            <script>
-            document.getElementById("PM10").innerHTML = 10.3;
-            </script>
+      <script>
+      document.getElementById("PM10").innerHTML = PMten;
+      </script>
     </div>
 
 
@@ -58,9 +59,9 @@
       <h2>  Temperature  </h2> </br>
       <p class="bigtext" id="temp"></p>
 
-            <script>
-            document.getElementById("temp").innerHTML = 10.3;
-            </script>
+      <script>
+      document.getElementById("temp").innerHTML = 10.3;
+      </script>
     </div>
 
 
@@ -68,9 +69,9 @@
       <h2>  Humidity </h2> </br>
       <p class="bigtext" id="humi"></p>
 
-            <script>
-            document.getElementById("humi").innerHTML = 10.3;
-            </script>
+      <script>
+      document.getElementById("humi").innerHTML = 10.3;
+      </script>
     </div>
 
 

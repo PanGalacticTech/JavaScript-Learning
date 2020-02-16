@@ -20,7 +20,7 @@ body {
 	background-color: #040404;
 	width:auto;
 	height: auto;
-	overflow: auto;
+	overflow: hidden;
 }
 
 
@@ -30,7 +30,7 @@ body {
 #header{
 	position: relative;
 	background-color: #111111;
-	color: white;
+	color: #FFFFFF;
 	padding: 0px;
 	height: 40%;
 	/* height: 260px; */
@@ -42,17 +42,15 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-
 	margin-top: -5%; /* Half the height */
 	overflow: hidden;
 	opacity:0.9;
 	filter:alpha(opacity=50);
-
+	height: auto;
 }
 
 #herooverlay{
 	width: 100%;
-	float: center;
 	background-color: #000000;
 	padding-bottom: 0px;
 	/*	opacity:0.9; */
@@ -404,6 +402,34 @@ p.navtitle2 {
 }
 
 
+#datetime{
+	font-family: Consolas, monaco, monospace;
+	font-size: 22px;
+	text-align: right;
+	float: right;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 15.4px;
+	color: #FFFFFF;
+		padding-right: 20px;
+}
+
+
+p.date {
+	font-family: Consolas, monaco, monospace;
+	font-size: 22px;
+	text-align: right;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 15.4px;
+	color: #FFFFFF;
+		padding-right: 20px;
+}
+
+
+
 
 
 img.center{
@@ -435,7 +461,7 @@ img.clipped {
 
 .helper {
 	display: inline-block;
-	height: 100%;
+/*	height: 100%; */
 	vertical-align: middle;
 
 }
@@ -489,7 +515,7 @@ img.clipped {
 	color: #F9A825;
 	border-radius: 10px;
 	background-image: radial-gradient(#181818 5%, #000000 90%);
-	box-shadow: 2px 2px 5px #FFFFFF;
+	box-shadow: -2px 2px 5px #FFFFFF;
 }
 
 
@@ -510,6 +536,17 @@ img.clipped {
 	/* Without Blur */
 	/*	box-shadow: 5px 5px #18ffff; */
 }
+
+
+.dataUpdate	{
+	padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
+
 
 /*  Font layout for big data buttons  */
 p.bigtext{
