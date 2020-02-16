@@ -11,23 +11,28 @@
 
 <body>
   <div id="parent">
+
     <div id="header">
 
       <div id="heroimage">
-        <img src="\media\envirostationprototypeone.jpg"
-        alt="PanGalacticLogo" class="stretchy" style=width:800px;height:200px; >
-        <div id="herooverlay">
 
+        <span class="helper">
+          <img src="\media\envirostationprototypeone.jpg"
+          alt="PanGalacticLogo" class="clipped"  style=width:100%; >
+        </span>
+
+
+        <div id="herooverlay">
 
           <div id="headlogo">
             <img src="\media\PanGalacticLogo2020NoLines01smaller.png"
-            alt="PanGalacticLogo" style=width:400px;height:150px;">
+            alt="PanGalacticLogo" style=width:100%;">
           </div>
 
 
           <div id="headtitle">
             <h1> Pan Galactic Tech </h1>
-            <h3> EnviroStation </h3>
+            <hlow>Arduino PCB   </hlow> <hhigh> EnviroStation </hhigh><hlow>Raspi Space Tech Design </hlow>
           </div>
 
         </div> <!-- end of hero Overlay-->

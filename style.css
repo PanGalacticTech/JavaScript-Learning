@@ -28,17 +28,23 @@ body {
 
 
 #header{
+	position: relative;
 	background-color: #111111;
 	color: white;
-	padding: 1px;
-	height: 160px;
+	padding: 0px;
+	height: 40%;
+	/* height: 260px; */
+	overflow: hidden;
 }
 
 
 #heroimage{
-	width: 100%;
-	float: center;
-	padding-bottom: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	margin-top: -5%; /* Half the height */
+	overflow: hidden;
 	opacity:0.9;
 	filter:alpha(opacity=50);
 
@@ -49,14 +55,16 @@ body {
 	float: center;
 	background-color: #000000;
 	padding-bottom: 0px;
-	opacity:0.9;
-	filter:alpha(opacity=50);
+	/*	opacity:0.9; */
+	/*	filter:alpha(opacity=50); */
 
 }
 
 #headlogo{
 	width: 50%;
-	float: left;
+	position: absolute;
+	top: 15%;
+	left: 15px;
 	padding-bottom: 0px;
 	opacity:0.9;
 	filter:alpha(opacity=50);
@@ -65,12 +73,14 @@ body {
 
 #headtitle{
 	width: 50%;
-	float: right;
-	padding-top: 70px;
+	position: absolute;
+	/*	float: right;  */
+	top: 13%;
+	right: 20px;
+	padding-top: 4%;
 	padding-bottom: 0px;
 	opacity:0.9;
 	filter:alpha(opacity=50);
-
 }
 
 
@@ -111,32 +121,32 @@ span {
 
 #sidebar{
 	width: 	13%;
-	position: fixed;
+	/*position: fixed; */
 	top: 210px;
+
 	margin: 0px auto 2px auto;
+	margin-top: 1%;
 	border: 0px solid #000;
 	float: left;
-	text-align: left;
+	/*	text-align: left; */
 	padding-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	display: block;
-	background-color: #424242;
+	background-color: #1e1e1e
 }
 
 
 #insidebar{
 	width: 80%;
 	margin: 2px auto 2px auto;
-
-	text-align: left;
+	/*	text-align: left; */
 	padding-top: 2px;
 	padding-left: 0px;
 	padding-right: 2px;
 	padding-bottom: 2px;
 	display: block;
-	background-color: #424242;
 	border: 0px solid #00BCD4;
 
 }
@@ -149,14 +159,18 @@ span {
 
 
 #content{
+	display: inline-block
 	width: 75%;
+	margin-top: 1%;
 	margin-left: 14%;
+	margin-right: 1%;
 	border: 0px solid #000;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 10px;
+	/*	padding-bottom: 10px; */
 	background-color: #202020;
+	height: fit-content;
 }
 
 #paddingdiv{
@@ -170,16 +184,19 @@ span {
 
 
 #post{
+	display: inline-block
 	width: 90%;
 	margin: 2px auto 2px auto;
 
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 2%;
 
 	color: #F5F5F5;
 	border: 0px solid #000;
+	height: fit-content;
+	overflow: hidden;             /* Add this */
 }
 
 
@@ -218,7 +235,7 @@ span {
 p.maintitle {
 
 	font-family: Consolas, monaco, monospace;
-	font-size: 20px;
+	font-size: 26px;
 	font-weight: bold;
 	color: #FFC107;
 }
@@ -226,7 +243,7 @@ p.maintitle {
 p.subheading {
 
 	font-family: Consolas, monaco, monospace;
-	font-size: 16px;
+	font-size: 22px;
 	font-weight: bold;
 	color: #FFC107;
 }
@@ -234,7 +251,7 @@ p.subheading {
 
 #pagetitlebox {
 	width: 70%;
-	margin: 3px auto 3px auto;
+	margin: 1px auto 3px auto;
 	color: #F9A825;
 }
 
@@ -254,8 +271,8 @@ p.subheading {
 #pagetitleboxR {
 	width: 100%;
 	margin-left: 0%;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
 	text-align: right;
 	font-size: 18px;
 	font-weight: bold;
@@ -265,16 +282,16 @@ p.subheading {
 
 h1 {
 	font-family: Consolas, monaco, monospace;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 800;
+	font-size: 42px;
+	font-style: bold;
+	font-variant: bold;
+	font-weight: 900;
 	line-height: 26.4px;
 }
 
 h2 {
 	font-family: Consolas, monaco, monospace;
-	font-size: 14px;
+	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 600;
@@ -289,6 +306,26 @@ h3 {
 	font-variant: normal;
 	font-weight: 600;
 	line-height: 15.4px;
+}
+
+hhigh {
+	font-family: Consolas, monaco, monospace;
+	font-size: 28px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 15.4px;
+	colour: white;
+}
+
+hlow {
+	font-family: Consolas, monaco, monospace;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 15.4px;
+
 }
 
 
@@ -363,14 +400,69 @@ img.center{
 
 
 img.stretchy {
-width: 100%; /*Tells image to fit to width of parent container*/
+	width: 100%; /*Tells image to fit to width of parent container*/
 }
-.container {
-width: 33%; /*Use this to control width of the parent container, hence the image*/
+.stcontainer {
+	width: 33%; /*Use this to control width of the parent container, hence the image*/
 }
+
+
+img.clipped {
+	width: 100%; /*Scales image to 150% width of parent container*/
+	vertical-align: middle;
+	float: top; /*Floats image to left of container - clipping right hand side*/
+	float: bottom; /*Floats image to right of container - clipping left hand side*/
+}
+
+.ccontainer {
+	width: 33%; /*Use this to control width of the parent container, hence the image*/
+	overflow: hidden;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+
+}
+
 
 .link {font-weight:bold; }
 .link:link { color:#03f0fc;}
 .link:visited { color:#03f0fc;}
 .link:hover { color:#18FFFF; background-color:#616161; }
 .link:active { color:#18FFFF; }
+
+
+
+/*  Envirostation Divs   */
+
+#pm10box {
+	display: inline-block;
+	float: left;
+	/*	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 1%;
+	padding-top: 1%; */
+	width: 200px;
+	height: 200px;
+	/*background-color: #0e0e0e; */
+	background-image: radial-gradient(#2e2e2e 5%, #000000 90%);
+	border-radius: 25px;
+	/* with blur */
+		box-shadow: 4px 4px 10px #18ffff;
+	/* Without Blur */
+/*	box-shadow: 5px 5px #18ffff; */
+}
+
+/*  Font layout for big data buttons  */
+bigtext{
+
+	color: #ffc107;
+	font-size: 56px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
