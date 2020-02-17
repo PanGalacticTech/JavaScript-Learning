@@ -14,15 +14,15 @@ return (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) 
 
  let div = document.createElement('div');
 
-let PMten = 2.345;
+let PMten = 0;
 
 // let dataNode = document.createTextNode(PMten);
 
- div.className = "dataUpdate";
+//div.className = "dataUpdate";
 
  div.innerHTML = PMten;
 
- document.body.append(envDiv);
+ //document.body.append(div);
 
 
 
